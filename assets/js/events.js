@@ -13,16 +13,6 @@ const EVENTS = [
     "place": "Las Vegas, USA",
     "photos": [
       {
-        "src": "03.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
-        "src": "05.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
         "src": "01.jpg",
         "w": 600,
         "h": 450
@@ -33,7 +23,17 @@ const EVENTS = [
         "h": 450
       },
       {
+        "src": "03.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
         "src": "04.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
+        "src": "05.jpg",
         "w": 600,
         "h": 450
       },
@@ -71,6 +71,11 @@ const EVENTS = [
     "place": "UW Advanced Composites Center, Seattle, USA",
     "photos": [
       {
+        "src": "01.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
         "src": "02.jpg",
         "w": 600,
         "h": 450
@@ -78,20 +83,15 @@ const EVENTS = [
       {
         "src": "03.jpg",
         "w": 600,
-        "h": 450
+        "h": 400
       },
       {
         "src": "04.jpg",
         "w": 600,
-        "h": 400
-      },
-      {
-        "src": "05.jpg",
-        "w": 600,
         "h": 450
       },
       {
-        "src": "01.jpg",
+        "src": "05.jpg",
         "w": 600,
         "h": 450
       }
@@ -105,16 +105,6 @@ const EVENTS = [
     "place": "Madison, Wisconsin, USA",
     "photos": [
       {
-        "src": "04.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
-        "src": "05.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
         "src": "01.jpg",
         "w": 600,
         "h": 450
@@ -122,10 +112,20 @@ const EVENTS = [
       {
         "src": "02.jpg",
         "w": 600,
-        "h": 800
+        "h": 450
       },
       {
         "src": "03.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
+        "src": "04.jpg",
+        "w": 600,
+        "h": 800
+      },
+      {
+        "src": "05.jpg",
         "w": 600,
         "h": 800
       }
@@ -148,12 +148,12 @@ const EVENTS = [
         "h": 450
       },
       {
-        "src": "04.jpg",
+        "src": "03.jpg",
         "w": 600,
         "h": 800
       },
       {
-        "src": "03.jpg",
+        "src": "04.jpg",
         "w": 600,
         "h": 800
       }
@@ -166,7 +166,7 @@ const EVENTS = [
     "place": "Ibaraki, Japan",
     "photos": [
       {
-        "src": "04.jpg",
+        "src": "01.jpg",
         "w": 600,
         "h": 338
       },
@@ -181,7 +181,7 @@ const EVENTS = [
         "h": 450
       },
       {
-        "src": "01.jpg",
+        "src": "04.jpg",
         "w": 600,
         "h": 438
       }
@@ -194,12 +194,12 @@ const EVENTS = [
     "place": "American Society for Composites",
     "photos": [
       {
-        "src": "02.jpg",
+        "src": "01.jpg",
         "w": 600,
         "h": 652
       },
       {
-        "src": "01.jpg",
+        "src": "02.jpg",
         "w": 600,
         "h": 573
       }
@@ -212,17 +212,17 @@ const EVENTS = [
     "place": "Seattle, USA",
     "photos": [
       {
-        "src": "03.jpg",
+        "src": "01.jpg",
         "w": 600,
         "h": 428
       },
       {
-        "src": "14.jpg",
+        "src": "02.jpg",
         "w": 600,
         "h": 800
       },
       {
-        "src": "02.jpg",
+        "src": "03.jpg",
         "w": 600,
         "h": 450
       },
@@ -252,22 +252,22 @@ const EVENTS = [
         "h": 450
       },
       {
-        "src": "13.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
-        "src": "01.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
         "src": "09.jpg",
         "w": 600,
         "h": 450
       },
       {
         "src": "10.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
+        "src": "11.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
+        "src": "12.jpg",
         "w": 600,
         "h": 800
       }
@@ -280,17 +280,17 @@ const EVENTS = [
     "place": "Singapore",
     "photos": [
       {
-        "src": "03.jpg",
+        "src": "01.jpg",
         "w": 600,
         "h": 450
       },
       {
-        "src": "01.jpg",
+        "src": "02.jpg",
         "w": 600,
         "h": 800
       },
       {
-        "src": "02.jpg",
+        "src": "03.jpg",
         "w": 600,
         "h": 800
       }
@@ -303,6 +303,11 @@ const EVENTS = [
     "place": "Orlando, Florida, USA",
     "photos": [
       {
+        "src": "01.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
         "src": "02.jpg",
         "w": 600,
         "h": 450
@@ -310,20 +315,10 @@ const EVENTS = [
       {
         "src": "03.jpg",
         "w": 600,
-        "h": 450
-      },
-      {
-        "src": "04.jpg",
-        "w": 600,
         "h": 800
       },
       {
-        "src": "07.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
-        "src": "01.jpg",
+        "src": "04.jpg",
         "w": 600,
         "h": 450
       },
@@ -334,6 +329,11 @@ const EVENTS = [
       },
       {
         "src": "06.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
+        "src": "07.jpg",
         "w": 600,
         "h": 800
       }
@@ -346,12 +346,12 @@ const EVENTS = [
     "place": "",
     "photos": [
       {
-        "src": "02.jpg",
+        "src": "01.jpg",
         "w": 600,
         "h": 800
       },
       {
-        "src": "01.jpg",
+        "src": "02.jpg",
         "w": 600,
         "h": 800
       },
@@ -369,17 +369,17 @@ const EVENTS = [
     "place": "Fukui, Japan",
     "photos": [
       {
-        "src": "03.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
         "src": "01.jpg",
         "w": 600,
         "h": 450
       },
       {
         "src": "02.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
+        "src": "03.jpg",
         "w": 600,
         "h": 450
       }
@@ -392,22 +392,7 @@ const EVENTS = [
     "place": "",
     "photos": [
       {
-        "src": "04.jpg",
-        "w": 600,
-        "h": 338
-      },
-      {
-        "src": "06.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
         "src": "01.jpg",
-        "w": 600,
-        "h": 450
-      },
-      {
-        "src": "05.jpg",
         "w": 600,
         "h": 338
       },
@@ -418,6 +403,21 @@ const EVENTS = [
       },
       {
         "src": "03.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
+        "src": "04.jpg",
+        "w": 600,
+        "h": 338
+      },
+      {
+        "src": "05.jpg",
+        "w": 600,
+        "h": 450
+      },
+      {
+        "src": "06.jpg",
         "w": 600,
         "h": 450
       }
@@ -438,32 +438,26 @@ const EVENTS = [
             "h": 399
           },
           {
+            "src": "02.jpg",
+            "w": 600,
+            "h": 265
+          },
+          {
+            "src": "03.jpg",
+            "w": 600,
+            "h": 450
+          },
+          {
+            "poster": "assets/video/2022-07-birdman-build-poster.jpg",
+            "video": "assets/video/2022-07-birdman-build.mp4"
+          },
+          {
             "src": "04.jpg",
             "w": 600,
             "h": 450
           },
           {
             "src": "05.jpg",
-            "w": 600,
-            "h": 450
-          },
-          {
-            "src": "10.jpg",
-            "w": 600,
-            "h": 265
-          },
-          {
-            "poster": "assets/video/2022-07-birdman-build-poster.jpg",
-            "caption": "Building the wing ribs (2× speed)",
-            "video": "assets/video/2022-07-birdman-build.mp4"
-          },
-          {
-            "src": "02.jpg",
-            "w": 600,
-            "h": 800
-          },
-          {
-            "src": "03.jpg",
             "w": 600,
             "h": 450
           },
@@ -485,15 +479,15 @@ const EVENTS = [
           {
             "src": "09.jpg",
             "w": 600,
+            "h": 333
+          },
+          {
+            "src": "10.jpg",
+            "w": 600,
             "h": 420
           },
           {
             "src": "11.jpg",
-            "w": 600,
-            "h": 333
-          },
-          {
-            "src": "12.jpg",
             "w": 600,
             "h": 413
           }
@@ -503,12 +497,12 @@ const EVENTS = [
         "title": "The Rally",
         "photos": [
           {
-            "src": "13.jpg",
+            "src": "12.jpg",
             "w": 600,
             "h": 400
           },
           {
-            "src": "15.jpg",
+            "src": "13.jpg",
             "w": 600,
             "h": 399
           },
@@ -518,17 +512,17 @@ const EVENTS = [
             "h": 450
           },
           {
-            "src": "16.jpg",
+            "src": "15.jpg",
             "w": 600,
             "h": 400
           },
           {
-            "src": "17.jpg",
+            "src": "16.jpg",
             "w": 600,
             "h": 450
           },
           {
-            "src": "18.jpg",
+            "src": "17.jpg",
             "w": 600,
             "h": 355
           }

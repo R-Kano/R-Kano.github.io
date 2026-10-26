@@ -50,6 +50,38 @@
   };
   root.innerHTML = (ev.sections || [{ photos: ev.photos }]).map(grid).join("");
 
+  // Justified rows: fill each row to the container width at roughly the target height.
+  // The last row keeps the target height instead of being stretched (or left tiny).
+  function layout(album) {
+    const width = album.clientWidth;
+    if (!width) return;
+    const gap = parseFloat(getComputedStyle(album).columnGap) || 0;
+    const target = Math.min(260, Math.max(110, width / 2.6));
+    const place = (row, h) => row.forEach((t) => {
+      t.style.flex = "none";
+      t.style.width = `${Math.floor(t.ratio * h)}px`;
+      t.style.height = `${Math.floor(h)}px`;
+    });
+    let row = [];
+    let sum = 0;
+    for (const tile of album.children) {
+      tile.ratio = parseFloat(tile.style.getPropertyValue("--r"));
+      row.push(tile);
+      sum += tile.ratio;
+      const h = (width - gap * (row.length - 1)) / sum;
+      if (h <= target) {
+        place(row, h);
+        row = [];
+        sum = 0;
+      }
+    }
+    if (row.length) place(row, Math.min(target, (width - gap * (row.length - 1)) / sum));
+  }
+  const albums = [...root.querySelectorAll(".album")];
+  const relayout = () => albums.forEach(layout);
+  relayout();
+  new ResizeObserver(() => requestAnimationFrame(relayout)).observe(root);
+
   // Links to the neighbouring albums (EVENTS is newest first)
   const newer = EVENTS[index - 1];
   const older = EVENTS[index + 1];
