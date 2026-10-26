@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos | Ryosuke Kano</title>
+  <meta name="description" content="Ryosuke Kano — Ph.D. student in Aerospace Engineering at Tohoku University, working on multiscale computational modeling of composite materials, manufacturing processes, and failure.">
+  <meta property="og:title" content="Ryosuke Kano | Ph.D. Student, Aerospace Engineering">
+  <meta property="og:description" content="Multiscale computational modeling of composite materials, manufacturing processes, and failure. Tohoku University.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://r-kano.github.io/">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    try {
+      const t = localStorage.getItem("theme");
+      if (t) document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Ryosuke Kano</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#news">News</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="index.html#highlights">Highlights</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#contact">Contact</a>
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <header class="album-head">
+        <a class="back-link" href="index.html#news">← Back to News</a>
+        <h1 id="album-title">Photos</h1>
+        <p class="album-meta" id="album-meta"></p>
+      </header>
+      <!-- Filled in by assets/js/photos.js from the album list in assets/js/events.js -->
+      <div id="album-root"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ryosuke Kano</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/events.js"></script>
+  <script src="assets/js/photos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
